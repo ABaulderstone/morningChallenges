@@ -1,3 +1,4 @@
+//Day 4 capitalise challenge
 const capitaliseTheFront = (string) => {
 	newArr = [];
 	string.split(" ").map((word) => {

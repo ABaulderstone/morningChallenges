@@ -1,3 +1,4 @@
+//Day 3 compare x and os challenge
 const exesAndOhs = (string) => {
   let x = 0;
   let o = 0;
