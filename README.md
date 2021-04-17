@@ -14,17 +14,17 @@ The split() method will divide a given String into an ordered list of substrings
 
 ```js
 
-const str = 'The quick brown fox jumps over the lazy dog.';
+const string = 'The quick brown fox jumps over the lazy dog.';
 
-const words = str.split(' ');
+const words = string.split(' ');
 console.log(words[3]);
 // expected output: "fox"
 
-const chars = str.split('');
+const chars = string.split('');
 console.log(chars[8]);
 // expected output: "k"
 
-const strCopy = str.split();
+const strCopy = string.split();
 console.log(strCopy);
 // expected output: Array ["The quick brown fox jumps over the lazy dog."]
 
