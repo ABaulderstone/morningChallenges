@@ -4,7 +4,7 @@
 ## About:
 Weekly morning challenge review code will be uploaded here on a weekly basis.
 
-## Methods used:
+## Methods and Expressions used:
 Following are list of methods and their explanations that were used in the challenges:
 
 ## .split() Method
@@ -59,5 +59,19 @@ console.log(animals.slice(1, 5));
 // expected output: Array ["bison", "camel", "duck", "elephant"]
 ```
 Referred from: [MDN docs Array.prototype.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+
+## Arrow functions expression:
+Arrow function expressions are compact alternatives to traditional function expressions, but is limited and can't be used in all situations.
+
+## Example usage:
+```js
+const stringer = (myStr) => {
+
+console.log(myStr);
+
+}
+stringer("Hello World");
+```
+Referred from: [MDN docs Arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 
