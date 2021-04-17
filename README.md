@@ -67,7 +67,8 @@ Arrow function expressions are compact alternatives to traditional function expr
 ```js
 const stringer = (myStr) => {
 
-console.log(myStr);
+console.log(myStr); 
+// expected output: Hello World
 
 }
 stringer("Hello World");
