@@ -14,19 +14,19 @@ The split() method will divide a given String into an ordered list of substrings
 
 ```js
 
-const string = 'The quick brown fox jumps over the lazy dog.';
+const string = 'The cat ran very fast till it was bored';
 
 const words = string.split(' ');
 console.log(words[3]);
-// expected output: "fox"
+// expected output: "very"
 
 const chars = string.split('');
 console.log(chars[8]);
-// expected output: "k"
+// expected output: "r"
 
 const strCopy = string.split();
 console.log(strCopy);
-// expected output: Array ["The quick brown fox jumps over the lazy dog."]
+// expected output: Array ["The cat ran very fast till it was bored"]
 
 ```
 Referred from: [MDN docs String.prototype.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
@@ -36,9 +36,9 @@ Object.is() method compares two values to determine whether they are the same.
 
 ## Example usage:
 ```js
-Object.is(25, 25);                // true
-Object.is('foo', 'foo');          // true
-Object.is('foo', 'bar');          // false
+Object.is('cat', 'cat');          // true
+Object.is('less', 'more');          // false
+Object.is(77, 77);                // true
 ```
 Referred from: [MDN docs Object.is()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is)
 
