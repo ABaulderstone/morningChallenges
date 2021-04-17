@@ -5,7 +5,7 @@
 Weekly morning challenge review code will be uploaded here on a weekly basis.
 
 ## Methods and Expressions used:
-Following are list of methods and their explanations that were used in the challenges:
+Following are list of methods, expressions and their explanations that were used in the challenges:
 
 ## .split() Method
 The split() method will divide a given String into an ordered list of substrings, puts these substrings into an array, and returns the array.  The division is done by searching for a pattern; where the pattern is provided as the first parameter in the method's call.  
