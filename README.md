@@ -47,16 +47,16 @@ The slice() method returns a shallow copy of a portion of an array into a new ar
 
 ## Example usage:
 ```js
-const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+const animals = ['cat', 'dog', 'donkey', 'owl', 'penguin'];
 
 console.log(animals.slice(2));
-// expected output: Array ["camel", "duck", "elephant"]
+// expected output: Array ["donkey", "owl", "penguin"]
 
 console.log(animals.slice(2, 4));
-// expected output: Array ["camel", "duck"]
+// expected output: Array ["donkey", "owl"]
 
 console.log(animals.slice(1, 5));
-// expected output: Array ["bison", "camel", "duck", "elephant"]
+// expected output: Array ["dog", "donkey", "owl", "penguin"]
 ```
 Referred from: [MDN docs Array.prototype.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 
