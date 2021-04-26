@@ -7,11 +7,17 @@ const exesAndOhs = (string) => {
   the splitted string as an array */
   console.log(stringAsArray);
   for (let i of stringAsArray) {
-	  if (i.toLowerCase() === 'x') {x++;}
+    // console.log(i);
+	  if (i.toLowerCase() === 'x') {
+      x++;
+    }
       console.log("Current x counter: "+x);
-	  if (i.toLowerCase() === 'o') {o++;}
+
+	  if (i.toLowerCase() === 'o') {
+      o++;
+    }
       console.log("Current o counter: "+o);
   }
   return x === o;
 }
-console.log(exesAndOhs("ooXX"))
+console.log(exesAndOhs("ooXXx"))

@@ -76,7 +76,7 @@ stringer("Hello World");
 Referred from: [MDN docs Arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 ## Math.pow() method:
-The Math.pow() function returns the base to the exponent power, as in baseexponent
+The Math.pow() function returns the base to the exponent power, as in baseexponent.
 
 ## Example usage:
 ```js
@@ -94,3 +94,71 @@ console.log(Math.pow(-7, 0.5));
 
 ```
 Referred from: [MDN docs Math.pow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
+
+## .match method and Regex (Regular Expressions):
+Regular expressions is used for pattern matching the character combinations in strings.Regular expressions are also objects in javascript. Regex can be used with other string methods too like split() and replace() but in this example we shall use it with the .match 
+method and similar can be found in Week-3's vowels.js.
+
+The match() method will retrieve the result of matching a string against a regular expression.
+
+## Example usage:
+```js
+const sentence = 'The Quick brown Fox jumps Over the lazy dog. It barked.';
+const reg = /[A-Z]/g;
+/* Finds the capital letters only specified between A to Z 
+The g identifier stands for global and finds the letters globally present in the sentence.
+*/
+const result = sentence.match(reg);
+
+console.log(result);
+// expected output: Array ["T", "Q", "F", "O", "I"]
+```
+Referred from: [MDN docs Regex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+Referred from: [MDN docs .match()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match)
+
+## reduce() method:
+The reduce() method will execute a reducer function provided by the user on each element of an array, which results in a single output value.
+
+The reducer function takes four arguments:
+
+- Accumulator
+- Current Value
+- Current Index
+- Source Array
+
+Your reducer function's returned value is assigned to the accumulator, whose value is remembered across each iteration throughout the array, and ultimately becomes the final, single resulting value.
+
+## Example usage:
+```js
+const arr = [20,30,40,50];
+const result = (accumulator, currentValue) => accumulator + currentValue;
+
+// 20+30+40+50
+console.log(arr.reduce(result));
+// expected output: 140
+
+// 15+20+30+40+504
+console.log(arr.reduce(result, 15));
+// expected output: 155
+```
+Referred from: [MDN docs .reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+
+## .includes() method:
+The includes() method will determine if an array has a certain value among its entries and will then return true or false as needed.
+
+## Example usage:
+```js
+const arr = [13, 7, 9, 11];
+
+console.log(arr.includes(9));
+// expected output: true
+
+const animals = ['cat', 'possum', 'eagle'];
+
+console.log(animals.includes('eagle'));
+// expected output: true
+
+console.log(animals.includes('um'));
+// expected output: false
+```
+Referred from: [MDN docs .reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
