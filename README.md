@@ -75,4 +75,22 @@ stringer("Hello World");
 ```
 Referred from: [MDN docs Arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
+## Math.pow() method:
+The Math.pow() function returns the base to the exponent power, as in baseexponent
 
+## Example usage:
+```js
+console.log(Math.pow(5, 3));
+// expected output: 125
+
+console.log(Math.pow(12, 0.5));
+// expected output: 3.4641016151377544
+
+console.log(Math.pow(5, -2));
+// expected output: 0.04
+
+console.log(Math.pow(-7, 0.5));
+// expected output: NaN
+
+```
+Referred from: [MDN docs Math.pow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
