@@ -161,4 +161,4 @@ console.log(animals.includes('eagle'));
 console.log(animals.includes('um'));
 // expected output: false
 ```
-Referred from: [MDN docs .reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+Referred from: [MDN docs .includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
