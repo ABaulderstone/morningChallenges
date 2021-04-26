@@ -95,7 +95,7 @@ console.log(Math.pow(-7, 0.5));
 ```
 Referred from: [MDN docs Math.pow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)
 
-## .match method and Regex (Regular Expressions):
+## Regex (Regular Expressions) and .match() method:
 Regular expressions is used for pattern matching the character combinations in strings.Regular expressions are also objects in javascript. Regex can be used with other string methods too like split() and replace() but in this example we shall use it with the .match 
 method and similar can be found in Week-3's vowels.js.
 
