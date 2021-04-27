@@ -162,3 +162,19 @@ console.log(animals.includes('um'));
 // expected output: false
 ```
 Referred from: [MDN docs .includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+
+## .map() method:
+The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+## Example usage:
+```js
+const arr = [7, 8, 4, 12];
+
+// passing a function to map
+const myMapper = arr.map(x => x * 2);
+
+console.log(myMapper);
+// expected output: Array [14, 16, 8, 24]
+
+```
+Referred from: [MDN docs .map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
