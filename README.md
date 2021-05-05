@@ -178,3 +178,19 @@ console.log(myMapper);
 
 ```
 Referred from: [MDN docs .map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+## Object.keys() method:
+The Object.keys() method will return an array of an object's own enumerable property names, which is iterated in the same order that a normal loop would.
+
+## Example usage:
+```js
+const object1 = {
+  a: 'hello',
+  b: 97,
+  c: true
+};
+
+console.log(Object.keys(object1));
+// expected output: Array ["a", "b", "c"]
+```
+Referred from: [MDN docs Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
