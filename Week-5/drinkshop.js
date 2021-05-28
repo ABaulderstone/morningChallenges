@@ -106,7 +106,7 @@ const drinkShop = {
       cost = 0;
       for (let item of drinkShop.customers[email].orders.find(order => order.id == orderId).items) {
          //console.log(drinkShop.customers[email].orders)
-         //console.log(item)
+        //console.log(item)
          // final iteration over items
         cost += (shop.productCost(item.productId) * item.qty);
         // product cost method
@@ -134,4 +134,4 @@ const drinkShop = {
   }
   
   console.log(shop.productById(2))
-  console.log(shop.totalCost('jane@doe.com',61721))
+  console.log(shop.totalCost('jane@doe.com',82721))
