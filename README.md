@@ -196,11 +196,12 @@ console.log(Object.keys(object1));
 Referred from: [MDN docs Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
 
 ## Regex | operand usage:
-Usage of the '|' OR operand can be done while not wrapping regex in the '[]' brackets 
+Usage of the '|' OR operand must be done when not wrapping the regex pattern in the '[]' brackets, otherwise the pattern to match will not be picked up  
 
 ## Example usage:
 ```js
 (/-|_/)
+// same as (/[-_]/)
 ```
 Referred from: [Regular Expressions](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Regexe.html)
 <br>
