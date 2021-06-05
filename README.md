@@ -194,3 +194,17 @@ console.log(Object.keys(object1));
 // expected output: Array ["a", "b", "c"]
 ```
 Referred from: [MDN docs Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+
+## Regex | operand usage:
+Usage of the '|' OR operand can be done while not wrapping regex in the '[]' brackets 
+
+## Example usage:
+```js
+(/-|_/)
+```
+Referred from: [Regular Expressions](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Regexe.html)
+<br>
+Referred from: [Regular Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
+
+
+
