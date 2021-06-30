@@ -227,6 +227,6 @@ The static String.fromCharCode() method returns a string created from the specif
 console.log(String.fromCharCode(104));
 // expected output: "h"
 ```
-Referred from: [MDN parseInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
+Referred from: [MDN String.fromCharCode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
 
 
