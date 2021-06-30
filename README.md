@@ -225,7 +225,7 @@ The static String.fromCharCode() method returns a string created from the specif
 ## Example usage:
 ```js
 console.log(String.fromCharCode(104));
-// expected output: "h"
+// Output: "h"
 ```
 Referred from: [MDN String.fromCharCode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
 
