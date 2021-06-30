@@ -207,5 +207,26 @@ Referred from: [Regular Expressions](https://www3.ntu.edu.sg/home/ehchua/program
 <br>
 Referred from: [Regular Tutorial](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
 
+## parseInt() method:
+The parseInt() function will parse a string argument and will return an integer of a specified radix.
+
+## Example usage:
+```js
+const num = parseInt(68, 16)
+// Specifies what base in the second parameter and then converts it to decimal.
+console.log(num);
+// Output: 104
+```
+Referred from: [MDN parseInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+
+## String.fromCharCode() method:
+The static String.fromCharCode() method returns a string created from the specified sequence of UTF-16 code units.
+
+## Example usage:
+```js
+console.log(String.fromCharCode(104));
+// expected output: "h"
+```
+Referred from: [MDN parseInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)
 
 

@@ -10,7 +10,7 @@ function hexStringToAscii(hexString) {
     we need this to be a Number first, it is a string currently parseInt takes the string and converts it to a number, 
     the second parameter allows us to state what base the number currently is - 16 for hexadecimal parseInt returns a decimal 
     conversion of the passed hexadecimal number - this is then passed to String.fromCharCode */
-    // console.log(parseInt(charCode, 16))
+    console.log(parseInt(charCode, 16))
     // console.log(String.fromCharCode(parseInt(charCode, 16)))
 
        return String.fromCharCode(parseInt(charCode, 16))
